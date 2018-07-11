@@ -41,7 +41,7 @@ class Alldebrid:
         # Current params used for connection
         connect_params = {
             'action': 'login',
-            'returnpage': '/account/',
+            'returnpage': 'account/', # When it's '/account/' the check below assumes it needs captcha. Though it's nothing like that at all.. Just an extra '/'
             'login_login': username,
             'login_password': password
         }
