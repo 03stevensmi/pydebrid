@@ -4,6 +4,8 @@ pydebrid
 
 A simple & cross-platform command-line interface for unrestraining links thanks to Alldebrid.
 
+⚠️ This lib is unmaintained and contains several security vulnerabilities in its dependencies. ⚠️
+
 Features
 ========
 
@@ -56,6 +58,11 @@ Return infos from your account like Fidelity points, Remaining time, Registratio
 
 Changelog
 =========
+
+From 1.0.9 to 1.0.10:
+
+- Bugfix by `plato79` (fixes https://github.com/davidderus/pydebrid/issues/10)
+  Source: https://github.com/plato79/pydebrid/pull/1
 
 From 1.0.8 to 1.0.9:
 
